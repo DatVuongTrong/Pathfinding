@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Raleway:wght@600&display=swap');
+.nav-bar {
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    height: 3.25em;
+    width: 100%;
+    background-color: #31757B;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul {
+    display: inline-flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+li {
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    
+}
+
+option {
+    color: #fff;
+    transition: background-color 0.5s, color 0.5s
+}
+
+h1 {
+    position: absolute;
+    left: 1em;
+    color: #fff;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+    width: 14em;
+    margin: 0 0.5em;
+    padding: 0;
+    border: none;
+    color: #fff;
+    background-color: #31757B;
+    transition: color 0.5s;
+   }
+
+.btn:hover {
+    color: rgb(228, 33, 33); /* change the direction of the change here */
+}
+
+.selection {
+    text-align: left;
+}
+
+.visualize {
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.visualize:hover {
+    background-color: bisque;
+    color: #31757B;
+}

@@ -1,0 +1,42 @@
+.instruction {
+    width: 100%;
+    height: 2.5em;    
+    margin: 1em;
+  
+}
+
+.instruction li {
+    width: 10em;
+    align-items: center;
+}
+.instruction span {
+    margin: 0 0.5em;
+}
+
+
+.node {
+    height: 30px;
+    width: 30px; 
+    border: 1px solid black; 
+    display: flex;   
+ }
+
+ .visited-node {
+    background-color: peachpuff;
+ }
+
+ .start-node {
+     background-color: green;
+ }
+
+ .end-node {
+     background-color: red;
+ }
+ 
+ .wall-node{
+     background-color: black;
+ }
+
+ .path-node {
+     background-color: aquamarine;
+ }
